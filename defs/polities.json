@@ -1,0 +1,20 @@
+{
+	"Mars Administration": {
+		"Founded": 2040,
+		"GDP": 102,
+		"Population": 1002395,
+		"Capital": "Ares",
+		"Government": "Autocracy",
+		"Leader": "Elon Musk",
+		"Description": "Oh god, Mars is independent!",		
+	},
+	"United Nations of Earth": {
+		"Founded": 1990,
+		"GDP": 974,
+		"Population": 900142395,
+		"Capital": "Washington D.C.",
+		"Government": "Republic",
+		"Leader": "random guy",
+		"Description": "i love the eu",		
+	},
+}
