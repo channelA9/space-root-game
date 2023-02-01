@@ -1,6 +1,7 @@
-[gd_scene load_steps=68 format=2]
+[gd_scene load_steps=69 format=2]
 
 [ext_resource path="res://assets/planets/planet_def.png" type="Texture" id=1]
+[ext_resource path="res://scenes/galaxy/celestial_objects/scripts/moon.gd" type="Script" id=2]
 
 [sub_resource type="CircleShape2D" id=66]
 
@@ -269,11 +270,12 @@ animations = [ {
 } ]
 
 [node name="moon" type="KinematicBody2D"]
+script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 66 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 67 )
-frame = 27
+frame = 6
 playing = true

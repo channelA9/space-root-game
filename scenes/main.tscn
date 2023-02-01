@@ -12,7 +12,6 @@ zoom = Vector2( 12, 12 )
 script = ExtResource( 3 )
 
 [node name="galaxy" parent="." instance=ExtResource( 1 )]
-position = Vector2( -16, -112 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = 0
